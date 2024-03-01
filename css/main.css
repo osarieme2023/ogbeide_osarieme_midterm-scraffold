@@ -1,0 +1,39 @@
+.image{
+    height: 250px;
+}
+
+.destop{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+
+
+    #hero-image{
+        height: 300px;
+    }
+    #footer{
+        height: 100px;
+    }
+
+    .destop{
+        display: inline-block;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .destop{
+        display: inline-block;
+    }
+
+    #hero-image{
+       height: 370px;
+    }
+
+    #footer{
+        height: 150px;
+    }
+}
